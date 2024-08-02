@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*   reset   */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #171124;
+}
+.body-pagina {
+    font-family: "Poppins", sans-serif;
+    background-color: #171124;
+}
+
+section h2 {
+    text-align: center;
+    padding: 80px 0 80px 0;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.boton-1{
+    display: inline-block;
+    padding: 10px 25px;
+    color: #ffffff;
+    background-color: #a200ff;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: transform 0.2s;
+    transition-property: background-color;
+    transition: 0.4s;
+}
+.boton-1:hover{
+    background-color: #fd0ef6;
+    transform: scale(1.05);
+}
+
+p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.logo-letra{
+    color: #a200ff;
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition-property: color;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    &:hover{
+        color: #e600ff;
+    }
+}
+
+.titulos{
+    color: #fff;
+    font-size: 60px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+//!VARIABLES
+$color-hover:#e600ff;
+
+//!LISTAS
+
+$colores: #a200ff, red , brown , blue ;
+
+//!EXTEND
+

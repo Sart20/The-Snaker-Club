@@ -10,7 +10,7 @@
     list-style: none;
 }
 
-.body-pagina {
+.body-pagina{
     font-family: "Poppins", sans-serif;
     background-color: #171124;
 }
@@ -30,9 +30,7 @@
     padding-bottom: 100px;
 }
 
-.header {
-    padding-bottom: 100px;
-}
+
 
 .menu {
     display: flex;
@@ -40,6 +38,7 @@
     align-items: center;
     padding: 20px 0;
     position: relative;
+    z-index: 1000;
 }
 
 .logo-letra {
@@ -80,7 +79,7 @@
 }
 
 .menu-icono {
-    width: 25px;
+    width: 30px;
     cursor: pointer;
     display: none;
 }
@@ -94,6 +93,7 @@
     display: flex;
     justify-content: space-between;
     padding: 80px 0;
+    margin-left: 20px;
 }
 
 .encabezado-texto {
@@ -109,6 +109,7 @@
     text-transform: uppercase;
     color: #a200ff;
     margin-bottom: 15px;
+    font-weight: 700;
 }
 
 p {
@@ -149,7 +150,6 @@ main h2 {
     text-align: center;
     font-weight: 600;
 }
-
 
 h2 {
     color: #fff;
@@ -198,7 +198,8 @@ h2 {
     padding: 30px;
     text-align: center;
     background-color: #221938;
-    transition: transform 0.2s;
+    transition-property: background-color;
+    transition-duration: 0.3s;
 }
 
 .producto:hover{
@@ -229,13 +230,7 @@ h2 {
     text-decoration: none;
 }
 
-.producto a.btn-1:hover {
-    background-color: #282726;
-}
 
-.producto:hover {
-    transform: scale(1.05);
-}
 
 .boton-tienda-contenedor{
     padding: 10px ;
@@ -317,12 +312,12 @@ section h2 {
     max-width: 100%;
     border-top: 1px solid #28282891;
     padding: 20px 0;
-    background-color: #221938
+    background-color: #221938;
 }
 
 .pie-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-nbetwee;
     align-items: center;
 }
 
@@ -347,17 +342,10 @@ section h2 {
 
 /*!--NOSOTROS---*/
 
-.nosotros h2 {
-    font-size: 80px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    text-align: center;
-}
-
 .nosotros p {
     text-align: left;
     font-size: 25px;
-    margin: 20px 240px 20px 240px;
+    padding: 30px;
 }
 
 .contenedor-img{
@@ -392,25 +380,70 @@ section h2 {
 
 /*!--Contacto---*/
 
-
+.contacto-contenedor{
+    padding-bottom: 300px ;
+}
 
 /*!---LOCALES --*/
 
-.map-contenedor{
+.local{
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    padding-top: 80px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 120px 0;
 }
 
-.locales-p{
-    text-align: left;
-    font-size: 25px;
-    font-size: 20px;
+.img-contenedor img{
+    width: 700px;
+    height: 400px;
+}
+.text-contenedor{
+    padding: 0 20px;
+}
+
+.text-contenedor h1{
     color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 50px;
+    flex-basis: 50%;
+}
+
+.text-contenedor p{
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+.medio-contenedor{
+    padding-bottom: 200px;
+}
+
+.imagen-locales {
+    background-image: url(../img/locales.webp);
+    background-position: center;
+    width: 100%;
+    height: 200px;
 }
 
 
+.visitanos-contenedor{
+    display: flex;
+    justify-content: space-between;
+}
 
+.visitanos-text {
+    margin: 0 20px;
+}
+
+.visitanos-text h2{
+    padding: 10px;
+}
+.visitanos-contenedor p{
+    font-size: 20px;
+    padding-top: 20px;
+}
 
 /*? Mobile Styles */
 
@@ -429,7 +462,7 @@ section h2 {
         top: 60px;
         left: 0;
         right: 0;
-        background-color: #a200ff;
+        background-color: #221938;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         display: none;
         flex-direction: initial;
@@ -467,11 +500,12 @@ section h2 {
         margin-top: 30px;
     }
 
-    .product {
+    .producto {
         padding: 30px;
+        margin: 0 10px;
     }
 
-    .products-content {
+    .productos-content {
         margin-top: 30px;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -500,5 +534,22 @@ section h2 {
 
     .pie ul {
         flex-direction: column;
+    }
+
+    /*!LOCALES*/
+
+    .local{
+        flex-direction: column;
+    }
+    .img-contenedor img{
+        max-width: 100%;
+    }
+    
+    .visitanos-contenedor{
+        flex-direction: column;
+    }
+    .mapa-contenedor{
+        display: flex;
+        justify-content: center;
     }
 }

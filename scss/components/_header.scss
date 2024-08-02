@@ -1,0 +1,56 @@
+/*COMIENZO NAV*/
+header{
+    .contenedor{
+        max-width: 1200px;
+        margin: 0 auto;
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            position: relative;
+            z-index: 1000;
+            .logo-letra{
+                color: #a200ff;
+                font-size: 25px;
+                font-weight: 900;
+                text-transform: uppercase;
+                transition-property: color;
+                transition-duration: 0.4s;
+                text-decoration: none;
+                &:hover{
+                    color: #e600ff;
+                }
+            }
+            #menu{
+                display: none;
+            }
+            .menu-icono{
+                width: 30px;
+                cursor: pointer;
+            }
+            }
+            .nav-barra{
+                ul{
+                    display: flex;
+                    li{
+                        a{
+                            font-size: 18px;
+                            padding: 0 20px;
+                            color: #fff;
+                            display: block;
+                            font-weight: 600px;
+                            transition-property: color;
+                            transition-duration: 0.4s;
+                            text-decoration: none;
+                            &:hover{
+                                color:$color-hover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+/*FIN NAV*/
+    
