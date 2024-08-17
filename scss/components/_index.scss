@@ -33,7 +33,7 @@
                     margin-bottom: 25px;
 
                 }
-                .boton-1{
+                .boton-header{
                     display: inline-block;
                     padding: 10px 25px;
                     color: #ffffff;
@@ -46,7 +46,7 @@
                     transition-property: background-color;
                     transition: 0.4s;
                     &:hover{
-                        color:$color-hover;
+                        background-color: $color-hover;
                         transform: scale(1.05);
                     }
                 }

@@ -40,7 +40,7 @@ section h2 {
     text-decoration: none;
     transition: transform 0.2s;
     transition-property: background-color;
-    transition: 0.4s;
+    transition: 0.4s;  
 }
 .boton-1:hover{
     background-color: #fd0ef6;
@@ -62,7 +62,7 @@ p {
     transition-duration: 0.4s;
     text-decoration: none;
     &:hover{
-        color: #e600ff;
+        color: #fd0ef6;
     }
 }
 

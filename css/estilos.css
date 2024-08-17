@@ -54,7 +54,7 @@ p {
   transition-duration: 0.4s;
   text-decoration: none; }
   .logo-letra:hover {
-    color: #e600ff; }
+    color: #fd0ef6; }
 
 .titulos {
   color: #fff;
@@ -102,7 +102,7 @@ header .contenedor {
       transition-duration: 0.4s;
       text-decoration: none; }
       header .contenedor .nav-barra ul li a:hover {
-        color: #e600ff; }
+        color: #a200ff; }
 
 /*FIN NAV*/
 .encabezado {
@@ -135,7 +135,7 @@ header .contenedor {
           font-size: 20px;
           color: #fff;
           margin-bottom: 25px; }
-        .encabezado .contenedor .encabezado-content .encabezado-texto .boton-1 {
+        .encabezado .contenedor .encabezado-content .encabezado-texto .boton-header {
           display: inline-block;
           padding: 10px 25px;
           color: #ffffff;
@@ -147,8 +147,8 @@ header .contenedor {
           transition: transform 0.2s;
           transition-property: background-color;
           transition: 0.4s; }
-          .encabezado .contenedor .encabezado-content .encabezado-texto .boton-1:hover {
-            color: #e600ff;
+          .encabezado .contenedor .encabezado-content .encabezado-texto .boton-header:hover {
+            background-color: #e600ff;
             transform: scale(1.05); }
 
 .servicios {
@@ -246,6 +246,70 @@ section .boton-tienda-contenedor {
       margin-bottom: 10px; }
     .testimonio .testimonio-content p {
       margin-bottom: 0; }
+
+/*CONTACTO*/
+.main-contact {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-items: center; }
+  .main-contact .contact-in {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px #060606; }
+    .main-contact .contact-in .contact-map {
+      width: 100%;
+      height: auto;
+      flex: 50%; }
+      .main-contact .contact-in .contact-map iframe {
+        width: 100%;
+        height: 100%; }
+    .main-contact .contact-in .contact-form {
+      width: 100%;
+      height: auto;
+      flex: 50%;
+      padding: 10px; }
+      .main-contact .contact-in .contact-form .h1-contact {
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: 600; }
+      .main-contact .contact-in .contact-form form .contact-form-txt {
+        width: 100%;
+        height: auto;
+        color: #000;
+        border: 1px solid #a3a3a3;
+        outline: none;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 30px; }
+      .main-contact .contact-in .contact-form form .contact-form-textarea {
+        width: 100%;
+        height: 130px;
+        color: #000;
+        border: 1px solid #a3a3a3;
+        outline: none;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 20px; }
+      .main-contact .contact-in .contact-form form .contact-form-btn {
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 50px;
+        background-color: #a200ff;
+        color: #fff;
+        transition-property: background-color;
+        text-transform: uppercase;
+        padding: 10px 0; }
+        .main-contact .contact-in .contact-form form .contact-form-btn:hover {
+          background-color: #e600ff;
+          transition-duration: 0.4s; }
 
 /*TIENDA*/
 .products .productos-content {
