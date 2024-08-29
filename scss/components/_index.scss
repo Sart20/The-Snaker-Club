@@ -1,3 +1,5 @@
+/*  index  */
+
 .encabezado{
     background-image: url(../img/bg.png);
     background-position: center;
@@ -85,12 +87,11 @@
 
 .productos {
     .productos-content{
-        display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         gap: 20px;
         margin-top: 50px;
         padding-bottom: 30px;
+        @extend %flex;
         .producto{
             flex: 1 1 calc(33.333% - 40px);
             box-shadow: 0 8px 12px rgba(88, 88, 88, 0.454);
@@ -120,8 +121,7 @@
 section{
     .boton-tienda-contenedor{
         padding: 10px ;
-        display: flex;
-        justify-content: center;
+        @include flex (flex, center);
         .boton-tienda{
             padding: 20px 30px;
             background-color: #a200ff;

@@ -10,6 +10,8 @@
     list-style: none;
 }
 
+/*  generales  */
+
 body {
     font-family: "Poppins", sans-serif;
     background-color: #171124;
@@ -84,3 +86,14 @@ $colores: #a200ff, red , brown , blue ;
 
 //!EXTEND
 
+%flex {
+    display: flex;
+    justify-content: center;
+}
+
+//!MIXINS 
+
+@mixin flex ($flex, $justufy){
+    display: $flex;
+    justify-content: $justufy;
+}
