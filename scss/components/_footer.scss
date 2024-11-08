@@ -1,0 +1,30 @@
+/*  footer  */
+.pie{
+    max-width: 100%;
+    border-top: 1px solid #28282891;
+    padding: 20px 0;
+    background-color: #221938;
+    .pie-content{
+        display: flex;
+        justify-content: space-nbetwee;
+        align-items: center;
+        ul{
+            display: flex;
+            li{
+                a{
+                    display: block;
+                    padding: 10px;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 600px;
+                    transition-property: color;
+                    transition-duration: 0.4s;
+                    text-decoration: none;
+                    &:hover{
+                        color:$color-hover;
+                    }
+                }
+            }
+        }
+    }
+}

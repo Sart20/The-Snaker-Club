@@ -1,0 +1,108 @@
+/* MEDIAQUERYS */
+
+@media (max-width: 991px) {
+    .menu-icono {
+        display: block;
+        color: #a200ff;
+    }
+
+    .menu label {
+        display: block;
+    }
+
+    .menu .nav-barra {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #221938;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: none;
+        flex-direction: initial;
+        padding: 20px;
+        border-radius: 0 0 10px 10px;
+        opacity: 0;
+    }
+
+    .menu .nav-barra ul {
+        flex-direction: column;
+    }
+
+    .menu .nav-barra ul li {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .menu .nav-barra ul li a:hover {
+        color: #ffffff;
+    }
+
+    #menu:checked~.nav-barra {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .servicios {
+        padding: 30px;
+    }
+
+    .servicios-main {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .producto {
+        padding: 30px;
+        margin: 0 10px;
+    }
+
+    .productos-content {
+        margin-top: 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonio {
+        padding: 30px;
+    }
+
+    .testimonio-content {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .testimonio-1 {
+        margin-bottom: 30px;
+    }
+
+    .pie {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .pie-content {
+        flex-direction: column;
+    }
+
+    .pie ul {
+        flex-direction: column;
+    }
+    
+        /*!LOCALES*/
+
+    .local{
+        flex-direction: column;
+    }
+    .img-contenedor img{
+        max-width: 100%;
+    }
+    
+    .visitanos-contenedor{
+        flex-direction: column;
+    }
+    .mapa-contenedor{
+        display: flex;
+        justify-content: center;
+    }
+}

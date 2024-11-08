@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda mendocina de ropa con las últimas tendencias y moda local. Encuentra prendas únicas, calidad superior y un servicio excepcional. ¡Visítanos y descubre tu nuevo estilo!">
+    <meta name="keywords" content="The Shark club, moda mendocina, ropa de Mendoza, tienda de ropa
+    , ropa de calidad, moda para todas las edades.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" href="./img/logo.jpg">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>The Shark Club | portense mal, vistanse bien</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor">
+            <div class="menu">
+                <a href="index.html" class="logo-letra">LOGO</a>
+                <input type="checkbox" id="menu">
+                <label for="menu" class="menu-icono">
+                    <i class='bx bx-menu'></i>
+                </label>
+                <nav class="nav-barra">
+                    <ul>
+                        <li><a href="./pages/contacto.html">Contacto</a></li>
+                        <li><a href="./pages/tienda.html">Tienda</a></li>
+                        <li><a href="./pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="./pages/locales.html">Locales</a></li>
+                        <div class="carrito-icono">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalCarrito">
+                                <i class='bx bx-cart'></i>
+                                <span id="carrito-cantidad">0</span>
+                            </a>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+            <div class="encabezado-content">
+                <div class="encabezado-texto">
+                    <h1>The Shark Club</h1>
+                    <p>Desde sus humildes comienzos hasta convertirse en un ícono de la moda urbana, The Shark Club</p>
+                    <a href="./pages/nosotros.html" class="boton-header">Nosotros</a>
+                </div>
+            </div>
+    </header>
+    <section class="servicios contenedor">
+        <h2 class="titulos">Nuestros sevicios</h2>
+        <div class="servicios-main">
+            <div class="servicios-content">
+                <div class="servicios-1">
+                    <img src="./img/bxs-package.svg" alt="Paquete">
+                    <h3>Calidad</h3>
+                    <p>Contamos con una muy buena calidad en nuestros productos.</p>
+                </div>
+            </div>
+            <div class="servicios-content">
+                <div class="servicios-1">
+                    <img src="./img/group.svg" alt="Grupo">
+                    <h3>Comunidad</h3>
+                    <p>Dando estilo a grande comunidades,desde 2010.</p>
+                </div>
+            </div>
+            <div class="servicios-content">
+                <div class="servicios-1">
+                    <img src="./img/credit-card-alt.svg" alt="Tarjeta de credito">
+                    <h3>Pagos</h3>
+                    <p>Aceptamos todos los metodos de pago.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="r">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/DC_HOMBRES_1_1.jpg" class="d-block w-100" alt="dos personas sentadas">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/dc2.jpg" class="d-block w-100" alt="dos personas sentadas">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/DC_MUJERES_2.jpg" class="d-block w-100" alt="dos personas sentadas">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <main class="productos contenedor">
+        <h2 class="titulos">Tienda</h2>
+        <div class="productos-content">
+            <div class="producto">
+                <img src="./img/n7.png" alt="Remera manga corta color naranja">
+                <h4>Remera</h4>
+                <a href="https://wa.me/5492634658613" class="boton-1" target="_blank">Whatsapp</a>
+                <button class="btn btn-primary agregar-carrito" data-nombre="Remera" data-precio="1200">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/n7.png" alt="Remera manga corta color naranja">
+                <h4>Remera</h4>
+                <a href="https://wa.me/5492634658613" class="boton-1" target="_blank">Whatsapp</a>
+                <button class="btn btn-primary agregar-carrito" data-nombre="Remera" data-precio="1200">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/n7.png" alt="Remera manga corta color naranja">
+                <h4>Remera</h4>
+                <a href="https://wa.me/5492634658613" class="boton-1" target="_blank">Whatsapp</a>
+                <button class="btn btn-primary agregar-carrito" data-nombre="Remera" data-precio="1200">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/n7.png" alt="Remera manga corta color naranja">
+                <h4>Remera</h4>
+                <a href="https://wa.me/5492634658613" class="boton-1" target="_blank">Whatsapp</a>
+                <button class="btn btn-primary agregar-carrito" data-nombre="Remera" data-precio="1200">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/n7.png" alt="Remera manga corta color naranja">
+                <h4>Remera</h4>
+                <a href="https://wa.me/5492634658613" class="boton-1" target="_blank">Whatsapp</a>
+                <button class="btn btn-primary agregar-carrito" data-nombre="Remera" data-precio="1200">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/n7.png" alt="Remera manga corta color naranja">
+                <h4>Remera</h4>
+                <a href="https://wa.me/5492634658613" class="boton-1" target="_blank">Whatsapp</a>
+                <button class="btn btn-primary agregar-carrito" data-nombre="Remera" data-precio="1200">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="modal fade" id="modalCarrito" tabindex="-1" aria-labelledby="modalCarritoLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalCarritoLabel">Carrito de Compras</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul id="lista-carrito" class="list-group"></ul>
+                        <p class="mt-3">Total: $<span id="total-precio">0</span></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-danger" id="vaciar-carrito">Vaciar Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="contenedor">
+        <div class="boton-tienda-contenedor">
+            <a href="./pages/tienda.html" class="boton-tienda">Ver Mas</a>
+        </div>
+    </section>
+    <section class="testimonio contenedor">
+        <h2 class="titulos">Clientes</h2>
+        <div class="testimonio-content">
+            <div class="testimonio-1">
+                <img src="./img/avatar-de-personne-icone-homme.png" alt="">
+                <h3>Claudio</h3>
+                <p>Hay mucha variedad en ropa y precios, la atención en la entrada y en la caja me pareció muy amable. Recomiendo comprar en efectivo para no perder tiempo, ni plata.</p>
+            </div>
+            <div class="testimonio-1">
+                <img src="./img/avatar-de-personne-icone-homme.png" alt="">
+                <h3>Juan</h3>
+                <p>Muy buena atención, la importancia de ser atendido por gente joven con muy buena predisposición. Me gustó y, sobre todo a mis hijas, la ropa. Volveremos con gusto.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="pie contenedor">
+        <div class="pie-content">
+            <a href="index.html" class="logo-letra"> LOGO</a>
+            <ul>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="./pages/tienda.html">Tienda</a></li>
+                <li><a href="./pages/nosotros.html">Nosotros</a></li>
+                <li><a href="./pages/locales.html">Locales</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./js/carrito.js"></script>
+</body>
+
+</html>

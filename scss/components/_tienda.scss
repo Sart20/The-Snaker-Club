@@ -1,0 +1,36 @@
+/*  tienda  */
+.products{
+    .productos-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 50px;
+        padding-bottom: 30px;
+        .producto{
+            flex: 1 1 calc(33.333% - 40px);
+            box-shadow: 0 8px 12px rgba(88, 88, 88, 0.454);
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            background-color: #221938;
+            transition-property: background-color;
+            transition-duration: 0.3s;
+            &:hover{
+                background-color: #302350;
+            }
+        }
+            img{
+                width: 100%;
+                height: auto;
+                border-radius: 20px;
+                margin-bottom: 15px;
+            }
+            h4{
+                font-size: 20px;
+                color: #fff;
+                margin-bottom: 15px;
+            }
+        }
+    }
+

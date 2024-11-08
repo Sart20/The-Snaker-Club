@@ -1,0 +1,44 @@
+/*  nosotros  */
+
+main{
+    .nosotros{
+        p{
+            text-align: left;
+            font-size: 25px;
+            padding: 30px;
+        }
+    }
+}
+section{
+    .contenedor-img{
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 250px;
+        grid-gap: 20px;
+        .caja-img{
+            a{
+                figure{
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        .caja-img:nth-child(1){
+            grid-column-start: span 2;
+        }
+        .caja-img:nth-child(4){
+            grid-column-start: span 2;
+        }
+    }
+
+}
